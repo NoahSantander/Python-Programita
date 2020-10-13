@@ -8,6 +8,9 @@ def resta(v1,v2):
 def multiplicacion(v1,v2):
 	resultado = int(v1) * int(v2)
 	return resultado
+def division(v1,v2):
+	resultado = int(v1) / int(v2)
+	return resultado
 
 while True:	
 	v1 = input("Ingrese valor 1: ")
